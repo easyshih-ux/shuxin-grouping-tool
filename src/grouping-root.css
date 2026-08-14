@@ -1,0 +1,10 @@
+html, body, #root { width: 100%; min-height: 100%; margin: 0; }
+* { box-sizing: border-box; }
+body { overflow-x: hidden; font-family: "Noto Serif TC", "Microsoft JhengHei", serif; background: #071b26; }
+button, input { font: inherit; }
+button { touch-action: manipulation; }
+button:focus-visible, input:focus-visible { outline: 3px solid #d8ad62; outline-offset: 3px; }
+
+@media (max-width: 900px) {
+  .grouping-header b { display: block; justify-self: center; text-align: center; }
+}
